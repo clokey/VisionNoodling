@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C918D44F1EF3EA4E0024D1DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918D44E1EF3EA4E0024D1DA /* AppDelegate.swift */; };
+		C918D4511EF3EA4E0024D1DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918D4501EF3EA4E0024D1DA /* ViewController.swift */; };
+		C918D4531EF3EA4E0024D1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C918D4521EF3EA4E0024D1DA /* Assets.xcassets */; };
+		C918D4561EF3EA4E0024D1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C918D4541EF3EA4E0024D1DA /* Main.storyboard */; };
+		C918D4621EF3EA4E0024D1DA /* VisionNoodlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918D4611EF3EA4E0024D1DA /* VisionNoodlingTests.swift */; };
+		C918D46D1EF3EA4E0024D1DA /* VisionNoodlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C918D46C1EF3EA4E0024D1DA /* VisionNoodlingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C918D45E1EF3EA4E0024D1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C918D4431EF3EA4E0024D1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C918D44A1EF3EA4E0024D1DA;
+			remoteInfo = VisionNoodling;
+		};
+		C918D4691EF3EA4E0024D1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C918D4431EF3EA4E0024D1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C918D44A1EF3EA4E0024D1DA;
+			remoteInfo = VisionNoodling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C918D44B1EF3EA4E0024D1DA /* VisionNoodling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionNoodling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C918D44E1EF3EA4E0024D1DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C918D4501EF3EA4E0024D1DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C918D4521EF3EA4E0024D1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C918D4551EF3EA4E0024D1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C918D4571EF3EA4E0024D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C918D4581EF3EA4E0024D1DA /* VisionNoodling.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisionNoodling.entitlements; sourceTree = "<group>"; };
+		C918D45D1EF3EA4E0024D1DA /* VisionNoodlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionNoodlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C918D4611EF3EA4E0024D1DA /* VisionNoodlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionNoodlingTests.swift; sourceTree = "<group>"; };
+		C918D4631EF3EA4E0024D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C918D4681EF3EA4E0024D1DA /* VisionNoodlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionNoodlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C918D46C1EF3EA4E0024D1DA /* VisionNoodlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionNoodlingUITests.swift; sourceTree = "<group>"; };
+		C918D46E1EF3EA4E0024D1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C918D4481EF3EA4E0024D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D45A1EF3EA4E0024D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D4651EF3EA4E0024D1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C918D4421EF3EA4E0024D1DA = {
+			isa = PBXGroup;
+			children = (
+				C918D44D1EF3EA4E0024D1DA /* VisionNoodling */,
+				C918D4601EF3EA4E0024D1DA /* VisionNoodlingTests */,
+				C918D46B1EF3EA4E0024D1DA /* VisionNoodlingUITests */,
+				C918D44C1EF3EA4E0024D1DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C918D44C1EF3EA4E0024D1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C918D44B1EF3EA4E0024D1DA /* VisionNoodling.app */,
+				C918D45D1EF3EA4E0024D1DA /* VisionNoodlingTests.xctest */,
+				C918D4681EF3EA4E0024D1DA /* VisionNoodlingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C918D44D1EF3EA4E0024D1DA /* VisionNoodling */ = {
+			isa = PBXGroup;
+			children = (
+				C918D44E1EF3EA4E0024D1DA /* AppDelegate.swift */,
+				C918D4501EF3EA4E0024D1DA /* ViewController.swift */,
+				C918D4521EF3EA4E0024D1DA /* Assets.xcassets */,
+				C918D4541EF3EA4E0024D1DA /* Main.storyboard */,
+				C918D4571EF3EA4E0024D1DA /* Info.plist */,
+				C918D4581EF3EA4E0024D1DA /* VisionNoodling.entitlements */,
+			);
+			path = VisionNoodling;
+			sourceTree = "<group>";
+		};
+		C918D4601EF3EA4E0024D1DA /* VisionNoodlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C918D4611EF3EA4E0024D1DA /* VisionNoodlingTests.swift */,
+				C918D4631EF3EA4E0024D1DA /* Info.plist */,
+			);
+			path = VisionNoodlingTests;
+			sourceTree = "<group>";
+		};
+		C918D46B1EF3EA4E0024D1DA /* VisionNoodlingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C918D46C1EF3EA4E0024D1DA /* VisionNoodlingUITests.swift */,
+				C918D46E1EF3EA4E0024D1DA /* Info.plist */,
+			);
+			path = VisionNoodlingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C918D44A1EF3EA4E0024D1DA /* VisionNoodling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C918D4711EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodling" */;
+			buildPhases = (
+				C918D4471EF3EA4E0024D1DA /* Sources */,
+				C918D4481EF3EA4E0024D1DA /* Frameworks */,
+				C918D4491EF3EA4E0024D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionNoodling;
+			productName = VisionNoodling;
+			productReference = C918D44B1EF3EA4E0024D1DA /* VisionNoodling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C918D45C1EF3EA4E0024D1DA /* VisionNoodlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C918D4741EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodlingTests" */;
+			buildPhases = (
+				C918D4591EF3EA4E0024D1DA /* Sources */,
+				C918D45A1EF3EA4E0024D1DA /* Frameworks */,
+				C918D45B1EF3EA4E0024D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C918D45F1EF3EA4E0024D1DA /* PBXTargetDependency */,
+			);
+			name = VisionNoodlingTests;
+			productName = VisionNoodlingTests;
+			productReference = C918D45D1EF3EA4E0024D1DA /* VisionNoodlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C918D4671EF3EA4E0024D1DA /* VisionNoodlingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C918D4771EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodlingUITests" */;
+			buildPhases = (
+				C918D4641EF3EA4E0024D1DA /* Sources */,
+				C918D4651EF3EA4E0024D1DA /* Frameworks */,
+				C918D4661EF3EA4E0024D1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C918D46A1EF3EA4E0024D1DA /* PBXTargetDependency */,
+			);
+			name = VisionNoodlingUITests;
+			productName = VisionNoodlingUITests;
+			productReference = C918D4681EF3EA4E0024D1DA /* VisionNoodlingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C918D4431EF3EA4E0024D1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Matt Cloke";
+				TargetAttributes = {
+					C918D44A1EF3EA4E0024D1DA = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					C918D45C1EF3EA4E0024D1DA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C918D44A1EF3EA4E0024D1DA;
+					};
+					C918D4671EF3EA4E0024D1DA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = C918D44A1EF3EA4E0024D1DA;
+					};
+				};
+			};
+			buildConfigurationList = C918D4461EF3EA4E0024D1DA /* Build configuration list for PBXProject "VisionNoodling" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C918D4421EF3EA4E0024D1DA;
+			productRefGroup = C918D44C1EF3EA4E0024D1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C918D44A1EF3EA4E0024D1DA /* VisionNoodling */,
+				C918D45C1EF3EA4E0024D1DA /* VisionNoodlingTests */,
+				C918D4671EF3EA4E0024D1DA /* VisionNoodlingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C918D4491EF3EA4E0024D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C918D4531EF3EA4E0024D1DA /* Assets.xcassets in Resources */,
+				C918D4561EF3EA4E0024D1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D45B1EF3EA4E0024D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D4661EF3EA4E0024D1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C918D4471EF3EA4E0024D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C918D4511EF3EA4E0024D1DA /* ViewController.swift in Sources */,
+				C918D44F1EF3EA4E0024D1DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D4591EF3EA4E0024D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C918D4621EF3EA4E0024D1DA /* VisionNoodlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C918D4641EF3EA4E0024D1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C918D46D1EF3EA4E0024D1DA /* VisionNoodlingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C918D45F1EF3EA4E0024D1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C918D44A1EF3EA4E0024D1DA /* VisionNoodling */;
+			targetProxy = C918D45E1EF3EA4E0024D1DA /* PBXContainerItemProxy */;
+		};
+		C918D46A1EF3EA4E0024D1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C918D44A1EF3EA4E0024D1DA /* VisionNoodling */;
+			targetProxy = C918D4691EF3EA4E0024D1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C918D4541EF3EA4E0024D1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C918D4551EF3EA4E0024D1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C918D46F1EF3EA4E0024D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C918D4701EF3EA4E0024D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C918D4721EF3EA4E0024D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VisionNoodling/VisionNoodling.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C918D4731EF3EA4E0024D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VisionNoodling/VisionNoodling.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C918D4751EF3EA4E0024D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionNoodling.app/Contents/MacOS/VisionNoodling";
+			};
+			name = Debug;
+		};
+		C918D4761EF3EA4E0024D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodlingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionNoodling.app/Contents/MacOS/VisionNoodling";
+			};
+			name = Release;
+		};
+		C918D4781EF3EA4E0024D1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodlingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = VisionNoodling;
+			};
+			name = Debug;
+		};
+		C918D4791EF3EA4E0024D1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5Z57GSMW7;
+				INFOPLIST_FILE = VisionNoodlingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.clokey.VisionNoodlingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = VisionNoodling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C918D4461EF3EA4E0024D1DA /* Build configuration list for PBXProject "VisionNoodling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C918D46F1EF3EA4E0024D1DA /* Debug */,
+				C918D4701EF3EA4E0024D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C918D4711EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C918D4721EF3EA4E0024D1DA /* Debug */,
+				C918D4731EF3EA4E0024D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C918D4741EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C918D4751EF3EA4E0024D1DA /* Debug */,
+				C918D4761EF3EA4E0024D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C918D4771EF3EA4E0024D1DA /* Build configuration list for PBXNativeTarget "VisionNoodlingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C918D4781EF3EA4E0024D1DA /* Debug */,
+				C918D4791EF3EA4E0024D1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C918D4431EF3EA4E0024D1DA /* Project object */;
+}
